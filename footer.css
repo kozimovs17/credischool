@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 56px;
+}
+
+.footer-item {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-logo p {
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-logos span {
+    width: 241px;
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.footer-links ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #808396;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-links .active {
+    color: #030F4B;
+}
+
+.sites {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 44px;
+}
+
+.site {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.by p {
+    color: #030F4B;
+    text-align: right;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.by p span {
+    color:#FD4455;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}

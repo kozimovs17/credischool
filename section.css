@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+section {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.university-info {
+    width: 1280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.university-info h1 {
+    width: 848px;
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.university-info p {
+    width: 608px;
+    height: 156px;
+    color: #52596E;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+}
+
+.university-btn {
+    display: inline-flex;
+    padding: 15px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #335DFF;
+    box-shadow: 0px 4px 6px 0px rgba(51, 93, 255, 0.25), 0px 10px 35px -3px rgba(51, 93, 255, 0.35);
+    color: #FCFCFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* UNIVERSITY-FINISH */
+
+
+
+.frame {
+    width: 1296px;
+    display: flex;
+    align-items: center;
+    gap: 174px;
+    margin-top: 390px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.item p {
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item span {
+    color: #52596E;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* FRAME-FINISH */
+
+
+.departament {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-top: 252px;
+}
+
+.departament h1 {
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.departament-item {
+    width: 1280px;
+    height: 484px;
+    display: flex;
+    align-items: center;
+    gap: 146px;
+}
+
+.departament-item2 {
+    width: 1280px;
+    height: 484px;
+    display: flex;
+    align-items: center;
+    gap: 146px;
+}
+
+.departament-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.departament-info h1 {
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+}
+
+.departament-info p {
+    width: 592px;
+    color: #4A4E63;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.departament-btn {
+    display: flex;
+    padding: 15px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #335DFF;
+    box-shadow: 0px 4px 6px 0px rgba(51, 93, 255, 0.25), 0px 10px 35px -3px rgba(51, 93, 255, 0.35);
+    color: #FCFCFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* DEPARTAMENT-FINISH */
+
+.students {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 134px;
+    gap: 3px;
+}
+
+h1 {
+    width: 873px;
+    color: #030F4B;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.frame2 {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    margin-top: 80px;
+}
+
+.frame2-item2 {
+    display: flex;
+    padding: 41px 114px 41px 41px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: #335DFF;
+    box-shadow: 0px 4px 6px 0px rgba(51, 93, 255, 0.25), 0px 10px 35px -3px rgba(51, 93, 255, 0.35);
+}
+
+.frame2-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frame2-info p {
+    color: #91A7FF;
+    font-family: ' Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.frame2-info span {
+    color: #FCFCFF;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.frame2-item1 {
+    display: flex;
+    padding: 41px 89px 41px 41px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FD4455;
+    box-shadow: 0px 4px 6px 0px rgba(253, 68, 85, 0.25), 0px 10px 35px -3px rgba(253, 68, 85, 0.35);
+}
+
+.frame2-info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frame2-info2 p {
+    color: #FCFCFF;
+    font-family: ' Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.frame2-info2 span {
+    color: #FCFCFF;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* FRAME2-FINISH */
+
+.started {
+    display: flex;
+    padding: 70px 262px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    margin-top: 268px;
+    background: #FCFCFF;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.05), 0px 10px 15px 4px rgba(0, 0, 0, 0.10);
+}
+
+.started-item {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.started-item p {
+    color: #030F4B;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.started-item button {
+    display: flex;
+    padding: 15px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:#FD4455;
+    box-shadow: 0px 4px 6px 0px rgba(253, 68, 85, 0.25), 0px 10px 35px -3px rgba(253, 68, 85, 0.35);
+    color: #FCFCFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+/* STARTED-FINSIH */
+
+.footer-img{
+    width: 1920px;
+    height: 700px;
+    position: relative;
+    bottom: 100px;
+}
+
+.footer-imgback{
+    position: absolute;
+    z-index: -1;
+}
