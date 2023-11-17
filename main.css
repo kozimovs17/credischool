@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.5s;
 }
 
 header {
@@ -67,6 +68,24 @@ nav {
     align-items: center;
     gap: 40px;
     list-style: none;
+}
+
+.den{
+    width: 75px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    background-color:#808396 ;
+    border-radius: 15px 15px 15px 15px;
+    transition: all 5s;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s;
 }
 
 .navbar a {
@@ -185,7 +204,7 @@ nav {
         align-items: center;
         gap: 20px;
         position: absolute;
-        top: 340px;
+        top: 380px;
         left: 30px;    
     }
 
