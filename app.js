@@ -85,18 +85,21 @@ a.forEach((item) =>{
 });
 
 let den = document.querySelector(".den");
-let circle = document.querySelector(".circle");
+let quyosh = document.querySelector(".kun");
+let luna = document.querySelector(".noch");
 let x = 0;
 
 den.addEventListener("click", () =>{
     x++;
     if(x % 2 !=0){
         den.style.justifyContent = "flex-end";
-        circle.style.backgroundColor = "#423b3b";
+        luna.style.display = "block";
+        quyosh.style.display = "none";
         body.style.backgroundColor = "#423b3b";
     } else{
         den.style.justifyContent = "flex-start";
-        circle.style.backgroundColor = "#fff";
-        body.style.backgroundColor = "#fff";
+        body.style.backgroundColor = "#fff";        
+        luna.style.display = "none";
+        quyosh.style.display = "block";
     }
 })
